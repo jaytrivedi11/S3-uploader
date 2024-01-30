@@ -41,8 +41,7 @@ This is a simple web application for uploading files to an AWS S3 bucket. The ap
    npm start
    ```
    The server will run at http://localhost:3000.
-4. Upload files on aws 
-5. (optional):
+4. Upload files on aws (optional):
 
 Use the provided form to select and upload files. The progress bar will show the upload progress, and the status will display the result of the upload.
 
