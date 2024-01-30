@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>S3 File Upload</title>
+</head>
+<body>
+  <div class="container">
+    <h1>File Upload to S3</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+      <input type="file" name="file" id="fileInput" />
+      <button type="button" onclick="uploadFile()">Upload</button>
+    </form>
+    <progress id="progressBar" value="0" max="100"></progress>
+    <div id="status"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
